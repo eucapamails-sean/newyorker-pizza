@@ -1,0 +1,41 @@
+0 verbose cli /usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/workspace/projects/newyorker-pizza/.npmrc
+5 silly config load:file:/workspace/projects/newyorker-pizza/.home/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm exec create-next-app@14 temp-project --typescript --tailwind --eslint --app --src-dir --no-import-alias --use-npm
+8 verbose argv "exec" "--" "create-next-app@14" "temp-project" "--typescript" "--tailwind" "--eslint" "--app" "--src-dir" "--no-import-alias" "--use-npm"
+9 verbose logfile logs-max:10 dir:/workspace/projects/newyorker-pizza/.home/.npm/_logs/2026-03-01T21_27_38_888Z-
+10 verbose logfile /workspace/projects/newyorker-pizza/.home/.npm/_logs/2026-03-01T21_27_38_888Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET 200 https://registry.npmjs.org/npm 94ms
+14 http fetch GET 200 https://registry.npmjs.org/create-next-app 111ms (cache miss)
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+17 warn exec The following package was not found and will be installed: create-next-app@14.2.35
+18 silly idealTree buildDeps
+19 silly fetch manifest create-next-app@14.2.35
+20 silly packumentCache full:https://registry.npmjs.org/create-next-app cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/create-next-app 199ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/create-next-app set size:undefined disposed:false
+23 silly placeDep ROOT create-next-app@14.2.35 OK for:  want: 14.2.35
+24 silly reify moves {}
+25 silly audit bulk request { 'create-next-app': [ '14.2.35' ] }
+26 silly tarball no local data for create-next-app@https://registry.npmjs.org/create-next-app/-/create-next-app-14.2.35.tgz. Extracting by manifest.
+27 http fetch GET 200 https://registry.npmjs.org/create-next-app/-/create-next-app-14.2.35.tgz 73ms (cache miss)
+28 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 103ms
+29 silly audit report {}
+30 verbose cwd /workspace/projects/newyorker-pizza
+31 verbose os Linux 6.12.12+bpo-cloud-amd64
+32 verbose node v20.20.0
+33 verbose npm  v10.8.2
+34 notice
+34 notice New major version of npm available! 10.8.2 -> 11.11.0
+34 notice Changelog: https://github.com/npm/cli/releases/tag/v11.11.0
+34 notice To update run: npm install -g npm@11.11.0
+34 notice  { force: true, [Symbol(proc-log.meta)]: true }
+35 verbose exit 0
+36 info ok
